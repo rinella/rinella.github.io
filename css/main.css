@@ -33,6 +33,10 @@ h2 {
   margin: 0;
 }
 
+h2:hover {
+    color: #77C9D4;
+  }
+
 li {
   display: inline;
   padding: 10px;
