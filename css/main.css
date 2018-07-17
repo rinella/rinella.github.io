@@ -1,13 +1,10 @@
-/* Open Sans Google Font */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700);
-
-/* Oswald Google Font */
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
 
 body {
   background-color: #57bc90;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   width: 100vw;
   height: 100vh;
@@ -27,7 +24,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -.6px;
   line-height: 36px;
   margin: 0;
