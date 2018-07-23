@@ -159,7 +159,7 @@
   --mdc-theme-text-secondary-on-light: rgba(0,0,0,.54);
   --mdc-theme-text-hint-on-light: rgba(0,0,0,.38);
   --mdc-theme-text-disabled-on-light: rgba(0,0,0,.38);
-  --mdc-theme-text-icon-on-light: #57bc90;
+  --mdc-theme-text-icon-on-light: rgba(0,0,0,.38);
   --mdc-theme-text-primary-on-dark: #fff;
   --mdc-theme-text-secondary-on-dark: hsla(0,0%,100%,.7);
   --mdc-theme-text-hint-on-dark: hsla(0,0%,100%,.5);
@@ -1126,3 +1126,6 @@ a.mdc-list-item {
 
 .mdc-drawer-scroll-lock {
   overflow: hidden; }
+
+.mdc-drawer--temporary .mdc-list-item {
+  font-size: 1.2rem; }

@@ -28,3 +28,7 @@
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/list/mdc-list";
 @import "@material/drawer/mdc-drawer";
+
+.mdc-drawer--temporary .mdc-list-item {
+    font-size: 1.2rem;
+}
