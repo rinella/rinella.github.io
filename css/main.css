@@ -8,7 +8,6 @@ body {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  vertical-align: middle;
   display: table-cell;
 }
 
@@ -57,4 +56,18 @@ ul {
   list-style: none;
   margin: 10px 0;
   padding: 0;
+}
+
+main {
+  margin-top: 33vh;
+}
+
+.close-container {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+li a i.close {
+  color: #57bc90;
 }

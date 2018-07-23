@@ -6,14 +6,34 @@
         Eric Rinella
     </title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bundle.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
+        <header class="mdc-top-app-bar">
+                <div class="mdc-top-app-bar__row">
+                  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+                    <a href="#" class="material-icons mdc-top-app-bar__navigation-icon menu"><i class="fa fa-2x fa-bars icon"></i></a>
+                  </section>
+                </div>
+              </header>
+              <aside class="mdc-drawer mdc-drawer--temporary mdc-typography">
+                    <nav class="mdc-drawer__drawer" dir="rtl">
+                      <ul class="mdc-list" aria-orientation="vertical" dir="ltr">
+                          <li class="close-container"><a href="#"><i class="fa fa-2x fa-times close"></i></a></li>
+                          <li class="mdc-list-item">Software Engineer</li>
+                          <li class="mdc-list-item">Leader</li>
+                          <li class="mdc-list-item">Architect</li>
+                          <li class="mdc-list-item">Instructor</li>
+                          <li class="mdc-list-item">Runner</li>
+                        </ul>
+                    </nav>
+                  </aside>
     <main>
         <section id="splash">
                 <h1>Eric Rinella</h1>
-                <h2>lead software engineer  /  architect  /  instructor</h2>
+                <h2>software engineer / leader / architect / instructor / runner</h2>
                 <ul>
                     <li><a id="github" href="https://github.com/rinella" target="_blank"><i class="fa fa-2x fa-github-alt"></i></a></li>
                     <li><a id="twitter" href="https://twitter.com/ericrinella" target="_blank"><i class="fa fa-2x fa-twitter"></i></a></li>
@@ -22,6 +42,7 @@
                   </ul>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
