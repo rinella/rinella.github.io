@@ -812,6 +812,10 @@ a.mdc-list-item {
   /* @alternate */
   color: var(--mdc-theme-text-primary-on-background, rgba(0, 0, 0, 0.87)); }
 
+.mdc-drawer--temporary .mdc-list-item {
+  border-bottom: solid .1px lightgray;
+  margin-left: 15px; }
+
 .mdc-drawer--persistent {
   color: rgba(0, 0, 0, 0.87);
   width: 0; }

@@ -27,6 +27,11 @@
 
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/list/mdc-list";
+.mdc-drawer--temporary .mdc-list-item {
+    border-bottom: solid .1px lightgray;
+    margin-left: 15px;
+}
+
 @import "@material/drawer/mdc-drawer";
 
 .mdc-drawer--temporary .mdc-list-item {
