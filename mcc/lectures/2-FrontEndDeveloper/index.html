@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>fes Front End Developer</title>
+
+    <meta name="description" content="This is curriculum for the fes RDU intro to web series. It was developed from the  Core HTML/CSS curriculum">
+    <meta name="author" content="fes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- For syntax highlighting -->
+    <!-- light editor--><link rel="stylesheet" href="lib/css/light.css">
+    <!-- dark editor<link rel="stylesheet" href="lib/css/dark.css"> -->
+    <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+
+    <link rel="stylesheet" href="plugin/accessibility-helper/css/accessibility-helper.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!-- If use the PDF print sheet so students can print slides-->
+
+    <link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+    <section>
+      <img src="img/fes_Logo.jpg" alt="fes Logo" class="noborder">
+      <h2>Front End Developer</h2>
+    </section>
+
+    <section>
+      <h3>What is a Front-End Developer?</h3>
+      <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. </p>
+    </section>
+
+    <section>
+      <h3>Where is the Client-Side?</h3>
+      <img src="img/clientserver.png">
+    </section>
+
+    <section>
+      <h3>Goals of this class</h3>
+      <p>Proficiency in HTML, CSS, JavaScript</p>
+      <p>Portfolio</p>
+      <p>Industry Experience</p>
+      <p>Then a Job!</p>
+    </section>
+
+    <section>
+      <h3>The Big Three</h3>
+      <img src="img/html-css-js.jpg">
+    </section>
+
+    <section>
+        <h3>Core Web Technologies</h3>
+        <ul>
+        <li>Uniform Resource Locators (aka URLs)</li>
+            <li>Hypertext Transfer Protocol (aka HTTP)</li>
+                <li>Hyper Text Markup Language (aka HTML)</li>
+                    <li>Cascading Style Sheets (aka CSS)</li>
+                        <li>JavaScript Programming Language (aka ECMAScript)</li>
+                            <li>JavaScript Object Notation (aka JSON)</li>
+                                <li>Document Object Model (aka DOM)</li>
+                                    <li>Web APIs (aka HTML5 and friends or Browser APIs)</li>
+                                        <li>Web Content Accessibility Guidelines (aka WCAG) & Accessible Rich Internet Applications (aka ARIA)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>In Demand Skill</h3>
+        <img src="img/languages.png">
+      </section>
+
+      <section>
+        <h3>What employers look for</h3>
+        <img src="img/exec-qualifications.png">
+      </section>
+
+      <section>
+        <h3>Competencies</h3>
+        <img src="img/compatencies.png">
+      </section>
+
+      <section>
+        <h3>Front End Jobs / Paths</h3>
+        <ul>
+          <li>Front End Developer</li>
+          <li>Full Stack Developer</li>
+          <li>Front End Dev Ops</li>
+          <li>Front End Testing / QA</li>
+          <li>Front End Mobile Developer</li>
+        </ul>
+      </section>
+
+      <section>
+          <h3>Front End Job Boards</h3>
+          <ul>
+          <li>angularjobs.com</li>
+              <li>authenticjobs.com</li>
+                  <li>careers.stackoverflow.com</li>
+                      <li>css-tricks.com/jobs</li>
+                          <li>codepen.io/jobs/</li>
+                              <li>frontenddeveloperjob.com</li>
+                                  <li>glassdoor.com</li>
+                                      <li>jobs.emberjs.com</li>
+                                          <li>jobs.github.com</li>
+                                              <li>weworkremotely.com</li>
+                                                  <li>fronthat.com</li>
+          </ul>
+        </section>
+
+    <section>
+      <h2>Questions?</h2>
+    </section>
+</div><!-- Close slides -->
+
+    <div>
+    </div>
+</div><!-- Closes Reveal -->
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/accessibility-helper/js/accessibility-helper.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

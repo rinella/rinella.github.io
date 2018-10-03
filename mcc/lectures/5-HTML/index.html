@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML</title>
+
+    <meta name="description" content="This is curriculum for the fes RDU intro to web series. It was developed from the  Core HTML/CSS curriculum">
+    <meta name="author" content="fes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- For syntax highlighting -->
+    <!-- light editor--><link rel="stylesheet" href="lib/css/light.css">
+    <!-- dark editor<link rel="stylesheet" href="lib/css/dark.css"> -->
+    <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+
+    <link rel="stylesheet" href="plugin/accessibility-helper/css/accessibility-helper.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!-- If use the PDF print sheet so students can print slides-->
+
+    <link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+    <section>
+      <img src="img/fes_Logo.jpg" alt="fes Logo" class="noborder">
+      <h2>HTML</h2>
+    </section>
+
+    <!-- Welcome-->
+    <section class="hide-pdf">
+      <h3>Definition</h3>
+      <p>HTML is not a programming language.  It is a markup language.</p>
+    </section>
+
+    <section class="hide-pdf">
+      <h3>Elements</h3>
+      <p>Hmtl is a series of elements (ie. title, head, body, html) </p>
+      <p>Elements are case insensitive! </p>
+    </section>
+
+    <section>
+      <h3> Block vs Inline elements</h3>
+      <ul>
+        There are two important categories of elements in HTML, which you should know about — block-level elements and inline elements.
+      </ul>
+    </section>
+
+    <section>
+      <h3>Block</h3>
+      <p>Block-level elements form a visible block on a page — they will appear on a new line from whatever content went before it, and any content that goes after it will also appear on a new line. Block-level elements tend to be structural elements on the page that represent, for example, paragraphs, lists, navigation menus, footers, etc. A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element.</p>
+    </section>
+
+    <section>
+    <h3>Inline</h3>
+    <p>Inline elements are those that are contained within block-level elements and surround only small parts of the document’s content, not entire paragraphs and groupings of content. An inline element will not cause a new line to appear in the document; they would normally appear inside a paragraph of text, for example an a element (hyperlink) or emphasis elements such as em or strong.</p>
+  </section>  
+
+  <section>
+    <h3>Whitespace</h3>
+    <p>Not needed</p>
+  </section>
+
+  <section>
+    <h3>Comments in HTML</h3>
+    <p><!-- Test --></p>
+  </section>
+
+
+  <section>
+    <h3>Links</h3>
+    <p>Use relative paths</p>
+    <p>img/test.png</p>
+    <p>../img/test.png</p>
+  </section>
+
+  <section>
+    <h3>Exercise Create Naivagtion Menu</h3>
+    <p>index.html</p>
+    <p>about.html</p>
+    <p>projects.html</p>
+  </section>
+
+  <section>
+    <h3>Sections of a Page</h3>
+    <ul>
+<li>Header</li>
+<li>Navigation</li>
+<li>Main Content</li>
+<li>Footer</li>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">**</a>
+    </ul>
+  </section>
+  
+  <section>
+      <h3>Planning your portfolio</h3>
+      <p>how will you layout your portfolio?</p>
+    </section>
+
+    <section>
+        <h3>Debugging</h3>
+        <p>Syntax vs Logic</p>
+        <p>Browers are permissive</p>
+      </section>
+
+      <section>
+          <h3>Validators</h3>
+          <p>W3C: validator.w3c.org</p>
+        </section>
+
+          <section>
+              <h3>Questions?</h3>
+            </section>
+</div><!-- Close slides -->
+
+    <div>
+    </div>
+</div><!-- Closes Reveal -->
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/accessibility-helper/js/accessibility-helper.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

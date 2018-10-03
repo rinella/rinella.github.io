@@ -19,3 +19,43 @@ h1 {
     font-style: oblique;
     margin-bottom: 30px;
 }
+
+.bio {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #015249;
+    font-style: italic;
+    color: #015249;
+    text-align: center;
+}
+
+.instructor-img {
+    width: 50%;
+}
+
+.syllabus {
+    text-align: start;
+    margin-left: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #77C9D4;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #77C9D4;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #57bc90;
+}
+
+a:active {
+    text-decoration: none;
+    color: #77C9D4;
+}
