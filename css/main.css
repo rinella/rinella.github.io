@@ -2,13 +2,21 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 
 body {
-  background-color: #57bc90;
-  color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   width: 100vw;
   height: 100vh;
   display: table-cell;
+}
+
+body.splash {
+  background-color: #57bc90;
+  color: white;
+}
+
+body.article {
+  background-color: white;
+  color: black;
 }
 
 
@@ -39,14 +47,14 @@ li {
   position: relative;
 }
 
-li a {
+li .fa {
   border-spacing: 0;
   color: #015249; 
   display: inline-block;
   transition: transform .2s ease;
 }
 
-li a:hover {
+li .fa:hover {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
   transform: translateY(5px);
