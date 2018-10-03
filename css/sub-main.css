@@ -1,0 +1,21 @@
+.vanity-name {
+    display: inline-flex;
+    flex: 1 1 auto;
+    align-items: center;
+    min-width: 0;
+    padding: 8px 12px;
+    z-index: 1;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+main {
+    margin-top: 13vh;
+}
+
+h1 {
+    color: #57bc90;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
