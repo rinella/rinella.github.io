@@ -1,0 +1,30 @@
+Quiz 1
+
+1. Create an empty github repository named - <your username>-classwork
+2. Clone it locally on your PC
+3. Open Visual Studio Code and Select the folder of your newly create repository
+4. Create a new folder called Quiz1
+5. In Quiz1 folder create an index.html file with the contents of html-template from my github account
+6. Open your index.html in the Chrome Web Browser
+7. Open the Chrome debugging tools
+8. View the console for errors
+9. Fix any errors on index.html
+10. Add Header, Nav, Main, Footer, Aside sections in your index.html page
+11. Update the title to "Quiz1"
+12. In the header put "My Header"
+13. Create 3 links in the nav to google.com, nodejs.org, monroecc.edu
+14. In the main create a header with "Breaking Bad"
+15. Create an unorderd list for the Seasons 1 + 2 with sublist of all the episodes per season
+16. In the footer put the copyright sign with your name and the year
+17. Push your work to Github 
+18. Create a file called HolidayChallenge.js
+19. In December your going to row 200k for charity.  
+Your employer is going to give you 2 cents for every kilometer for the first 100k 
+and 4 cents every kilometer after.  How much will you raise for charity? 
+output the following when running your JS on the command line:  I will raise $<answer> for charity this year!
+20. Push your work to Github
+21. Create a file called StarWarsRuntimeHelper.js
+22. You own a Movie theater and you plan to show Star Wars: Return of the Jedi.  You know it runs
+136 minutes long.  You need to know how many minutes its un past the second hour.  The keys on
+your keyboard for +,-,*, and / are broken.  Using a math operation in javascript output: Minutes past 2nd hour: <answer> mins
+23. Push your work to Github
