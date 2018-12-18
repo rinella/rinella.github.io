@@ -1,0 +1,15 @@
+BlackJack Simulation MVP-1
+Use Pivotal Tracker to Create Stories/Task/Bugs/Issues
+-breakup work and assign to group members
+Create Git Repository for the team
+-Give access to all team members
+-Use a branching strategy that focuses on short lived feature branches
+-All merges to master branch must be code reviewed with a Pull Request
+Game Implementation
+-implement two different strategies
+-must mimic real world blackjack at a casino
+-4 players
+-each starts with 200 dollars
+-ante is $15 per round
+-the number of rounds is dynamic
+-output the +/- of $ for each player
